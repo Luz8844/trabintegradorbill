@@ -1,0 +1,89 @@
+.bannerprincipal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url("./tabintoradoresimagenes/ba1.jpg");
+    background-blend-mode: color #000000a3;
+    height: 100vh;
+    color: white;
+    padding: 0%;
+    text-align: end;
+    justify-content: center;
+    }
+
+.bannerprincipal button {
+    width: fit-content;
+    padding: 4px 8px;
+    background: green;
+    margin-top: .3em;
+    border: 0px;
+    border-radius: 4px;
+    justify-content: left;
+}
+    
+.cardscards {
+    display: flex;
+    justify-content: center;
+}
+
+/* publicidad*/
+
+.pub {
+    margin: 25px 0;
+    display: flex;
+    height: 65vh;
+    gap: 2px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.pub .image {
+    background-image: url(./tabintoradoresimagenes/honolulu.jpg); 
+    width: 100%;
+    
+}
+
+.pub .text div:first-child{
+    font-weight: bold;
+    margin-bottom: 15px;
+   }
+
+.pub .text {
+    background-color: grey;
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.pub .text button {
+    margin: 15px 0px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.botonenviar{
+    background-color: #198754;
+    width: 100%;
+    height:90%;
+    color: #fff;
+    text-align: center;
+}
+
+footer{
+    background-color:#214d67;
+    color: white;
+    height: 55px;
+    text-align: center;
+    text-decoration: none;
+}
+
